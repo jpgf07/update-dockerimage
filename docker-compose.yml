@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+    quatro:
+      image: jpgomezz/quarto:final
+      container_name: newquarto
+      tty: true
+      command: |
+       /bin/bash
+       /bin/sh
+       tail -f messages
+      volumes:
+        - ./volume1/:/quatro/project:rw
