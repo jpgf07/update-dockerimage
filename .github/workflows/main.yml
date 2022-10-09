@@ -19,9 +19,6 @@ jobs:
       - run: |
            pwd
            ls -la
-           docker-compose up -d
-           docker container ls
-      
       
       - name: Login to DockerHub
         uses: docker/login-action@v2
