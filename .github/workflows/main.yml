@@ -33,6 +33,6 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: jpgomezz/NewQuartos:latest
+          tags: jpgomezz/newquarto-test:latest
 
 
