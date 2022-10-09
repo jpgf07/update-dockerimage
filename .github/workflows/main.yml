@@ -2,7 +2,7 @@ name: Testing Docker
 
 on:
   push:
-    branches: none
+    branches: main
 
 jobs:
   docker:
